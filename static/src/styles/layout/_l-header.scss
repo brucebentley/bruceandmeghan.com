@@ -1,0 +1,55 @@
+///
+/// HEADER
+///
+
+    .header {
+        border-top: 6px solid rgba($brand-primary, 0.65);
+        padding: $line-height-computed 0;
+        h1, h2, h3, h4, h5, h6 {
+            margin: 0;
+        }
+
+        // SMALLER SCREENS
+        @media screen and (max-width: $grid-float-breakpoint) {
+            display: none;
+            visibility: hidden;
+        }
+    }
+
+    .logo {
+        @include roboto-light;
+        font-size: $font-size-h2;
+        letter-spacing: -2px;
+
+        > a {
+            color: $gray;
+        }
+
+        .two-hearts {
+            @include img-responsive;
+            display: inline-block;
+            max-width: $font-size-h2;
+            position: relative;
+            top: -2px;
+        }
+
+        // SMALLER SCREENS
+        @media screen and (max-width: $grid-float-breakpoint) {
+            @include centered;
+            font-size: $font-size-h3;
+
+            .two-hearts {
+                max-width: $font-size-h4;
+            }
+        }
+    }
+
+    .wedding-date {
+        letter-spacing: -2px;
+
+        // SMALLER SCREENS
+        @media screen and (max-width: $grid-float-breakpoint) {
+            display: none;
+            visibility: hidden;
+        }
+    }

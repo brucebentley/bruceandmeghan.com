@@ -1,17 +1,13 @@
-/**
- * The main file should be the only Sass file from the whole code
- * base not to begin with an underscore. This file should not contain
- * anything but @import statements & comments.
- * Files should be imported according to the folder they live in, one
- * after the other in the following order:
-
- * In order to preserve readability, the main file should respect these guidelines:
- * 1. One file per @import
- * 2. One @import per line
- * 3. No new line between two imports from the same folder
- * 4. A new line after the last import from a folder
- * 5. File extensions and leading underscores should be omitted
- */
+/*!
+ * Theme Name: Bruce & Meghan's Wedding
+ * Theme URI: git@github.com:brucebentley/bruceandmeghan.com.git
+ * Author: Bruce Bentley
+ * AuthorURI: http://www.bruceandmeghan.com
+ * Description: Bruce finally popped the big question, and Meghan said yes!
+ * Version: 1.0
+ * License: The MIT License (MIT)
+ * License URI: http://opensource.org/licenses/MIT
+*/
 
 /// CORE
     @import 'base/colors';

@@ -1,0 +1,25 @@
+///
+/// TYPOGRAPHY STYLES
+///
+
+    .accent-color {
+        color: $brand-success;
+    }
+
+    .section-title,
+    .sub-title {
+        padding: 0 15px;
+    }
+
+    .section-title {
+        @include calli;
+    }
+
+    .sub-title {
+        @include roboto-light;
+        color: $gray;
+    }
+
+    blockquote {
+        @include roboto-light-italic;
+    }
