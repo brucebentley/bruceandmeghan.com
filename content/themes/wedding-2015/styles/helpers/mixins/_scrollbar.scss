@@ -1,0 +1,48 @@
+/* #STYLED-SCROLLBARS
+================================================== */
+/// @USAGE EXAMPLE
+/// $red:  #ca192f    !default;
+/// @include scrollbar(0.5em, $red);
+///
+/// Force Scrollbars
+/// body {
+/// height: 3000px;
+/// width:  3000px;
+/// }
+///
+/// @RESULT
+/// ::webkit-scrollbar {
+///     height: 0.5em;
+///     width: 0.5em;
+/// }
+/// ::webkit-scrollbar-thumb {
+///     background: #ca192f;
+/// }
+/// ::webkit-scrollbar-track {
+///     background: #ee7786;
+/// }
+/// body {
+///     scrollbar-face-color: #ca192f;
+///     scrollbar-track-color: #ee7786;
+/// }
+///
+    @mixin scrollbar($size, $primary, $secondary: lighten($primary, 25%)) {
+        ::-webkit-scrollbar {
+            height: $size;
+            width:  $size;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: $primary;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: $secondary;
+        }
+
+        // For Internet Explorer
+        body {
+            scrollbar-face-color: $primary;
+            scrollbar-track-color: $secondary;
+        }
+    }

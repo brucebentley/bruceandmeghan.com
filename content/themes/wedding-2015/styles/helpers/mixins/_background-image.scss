@@ -1,0 +1,9 @@
+/* #BACKGROUND IMAGE
+================================================== */
+    @mixin background-image($bgimage...) {
+        background-image: -webkit-$bgimage;
+           background-image: -moz-$bgimage;
+            background-image: -ms-$bgimage;
+             background-image: -o-$bgimage;
+                background-image: $bgimage;
+    }

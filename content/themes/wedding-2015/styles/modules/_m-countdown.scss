@@ -1,0 +1,83 @@
+///
+/// COUNTDOWN
+///
+
+    .countdown {
+        .sub-title {
+            @include calli;
+        }
+    }
+
+    /* COUNTDOWN SECTION */
+    .countdown-section {
+        @include roboto-light;
+        background-color: $brand-primary;
+        color: $white;
+        letter-spacing: -1px;
+        margin-bottom: 30px;
+        max-height: 180px;
+        padding: 20px;
+        position: relative;
+        text-transform: uppercase;
+        @extend .shadow-3;
+
+        &::before {
+            @include roboto-bold;
+            color: $brand-primary;
+            content: ':';
+            display: inline-block;
+            font-size: $font-size-h1;
+            left: -18px;
+            line-height: 1;
+            margin-top: -32px;
+            position: absolute;
+            speak: none;
+            top: 50%;
+            z-index: 10;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        // LARGER SCREENS
+        @media screen and (min-width: $grid-float-breakpoint) {
+            &::before {
+
+            }
+        }
+    }
+
+    /* COUNTDOWN AMOUNT */
+    .countdown-amount {
+        float: left;
+        font-size: $font-size-h1;
+        line-height: 1;
+        position: relative;
+        width: 100%;
+
+        // LARGER SCREENS
+        @media screen and (min-width: $grid-float-breakpoint) {
+            font-size: ($font-size-h1 * 2);
+        }
+    }
+
+    /* DAYS COUNTER */
+    .countdown-days {
+        .countdown-section {
+            &::before {
+                display: none;
+                visibility: hidden;
+            }
+        }
+    }
+
+    // SMALLER SCREENS
+    @media screen and (max-width: $grid-float-breakpoint) {
+        /* MINUTES COUNTER */
+        .countdown-minutes {
+            .countdown-section {
+                &::before {
+                    display: none;
+                    visibility: hidden;
+                }
+            }
+        }
+    }

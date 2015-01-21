@@ -1,0 +1,80 @@
+///
+/// PANELS
+///
+
+    .panel {
+        position: relative;
+        @extend .shadow-2;
+
+        /* WEDDING COUPLE PANEL */
+        &.wedding-couple {
+            background-color: $white;
+
+            > .panel-heading {
+                border-bottom: 1px solid $gray-lighter;
+                padding: 12px 30px;
+                position: relative;
+                .person-avatar {
+                    border: 1px solid $gray-lighter;
+                    float: right;
+                    max-width: 126px;
+                }
+                h1 {
+                    @include calli;
+                    color: $red-light;
+                    display: inline-block;
+                    font-weight: 400;
+                    margin: 30px 0 8px;
+                    &.accent-color {
+                        color: $teal-300;
+                    }
+
+                    // SMALLER SCREENS
+                    @media screen and (max-width: $grid-float-breakpoint) {
+                        font-size: $font-size-h3;
+                    }
+                }
+                p {
+                    @include roboto-light;
+                    color: $gray-dark;
+                    font-size: $font-size-large;
+                    margin: 0;
+                }
+            }
+
+            // Adding The Divider Icon Between The Two Panels
+            &.first {
+                &:before {
+                    @include border-radius(50px);
+                    background: $red-light;
+                    color: $white;
+                    content: '\f067';
+                    font-family: 'FontAwesome';
+                    font-size: 35px;
+                    height: 60px;
+                    line-height: 1;
+                    padding: 15px;
+                    position: absolute;
+                    right: -45px;
+                    text-align: center;
+                    top: 126px;
+                    width: 60px;
+                    z-index: ($zindex-navbar-fixed - 1);
+                }
+            }
+
+            // SMALLER SCREENS
+            @media screen and (max-width: $screen-sm-min) {
+                margin-bottom: ($line-height-computed * 1.5);
+                &.first {
+                    &:before {
+                        bottom: -51px;
+                        left: 50%;
+                        margin-left: -30px;
+                        right: auto;
+                        top: auto;
+                    }
+                }
+            }
+        }
+    }
