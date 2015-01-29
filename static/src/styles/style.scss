@@ -1,0 +1,42 @@
+/**
+ * The main file should be the only Sass file from the whole code
+ * base not to begin with an underscore. This file should not contain
+ * anything but @import statements & comments.
+ * Files should be imported according to the folder they live in, one
+ * after the other in the following order:
+
+ * In order to preserve readability, the main file should respect these guidelines:
+ * 1. One file per @import
+ * 2. One @import per line
+ * 3. No new line between two imports from the same folder
+ * 4. A new line after the last import from a folder
+ * 5. File extensions and leading underscores should be omitted
+ */
+
+/// CORE
+    @import 'base/colors';
+    @import 'base/typography';
+    @import 'helpers/h-variables';
+    @import 'helpers/h-functions';
+    @import 'helpers/h-mixins';
+    @import 'helpers/h-shadows';
+    @import 'helpers/h-utils';
+
+/// BASE
+    @import 'base/reset';
+
+/// VENDORS
+    @import 'vendors/v-bootstrap';
+    @import 'vendors/v-slick';
+
+/// LAYOUT
+    @import 'layout/l-layout';
+
+/// MODULES
+    @import 'modules/m-modules';
+
+/// PAGES
+    @import 'pages/p-home';
+    @import 'pages/p-ceremony';
+    @import 'pages/p-reception';
+    @import 'pages/p-contact';

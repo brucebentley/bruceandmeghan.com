@@ -31,7 +31,7 @@ var AUTOPREFIXER_BROWSERS = [
 
 // STYLES
 gulp.task('styles', function () {
-    return gulp.src('src/styles/main.scss')
+    return gulp.src('src/styles/style.scss')
         .pipe($.plumber())
         .pipe($.sass({
             style: 'expanded',
@@ -39,10 +39,10 @@ gulp.task('styles', function () {
             onError: console.error.bind(console, 'Sass Error:')
         }))
         .pipe($.autoprefixer({browsers: AUTOPREFIXER_BROWSERS}))
-        .pipe(gulp.dest('.tmp/styles'))
+        .pipe(gulp.dest('.tmp'))
         // Concatenate And Minify Styles
         .pipe($.if('*.css', $.csso()))
-        .pipe(gulp.dest('dist/styles'))
+        .pipe(gulp.dest('dist'))
         .pipe($.size({title: 'styles'}));
 });
 

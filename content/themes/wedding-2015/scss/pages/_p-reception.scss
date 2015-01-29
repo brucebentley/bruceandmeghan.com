@@ -1,0 +1,98 @@
+///
+/// RECEPTION
+///
+    .section.reception {
+        padding-top: 135px;
+        padding-bottom: 0;
+        // LARGER SCREENS
+        @media screen and (min-width: $grid-float-breakpoint) {
+            padding-top: 235px;
+        }
+
+        // SMALLER SCREENS
+        @media screen and (max-width: $grid-float-breakpoint) {
+            .section-title {
+                font-size: $font-size-h3;
+            }
+        }
+
+        .section-background {
+            bottom: 0;
+            display: block;
+            height: 590px;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: -9998;
+            .section-background-image {
+                @include background-size(cover);
+                background: linear-gradient(rgba($gray-darker, 0.15), rgba($gray-darker, 0.15)),
+                            linear-gradient(rgba($white, 0.15), rgba($white, 0.15)),
+                            url("/content/uploads/masthead2-mobile.jpg");
+                background-position: center -150px;
+                background-repeat: no-repeat;
+                bottom: 0;
+                left: 0;
+                position: absolute;
+                right: 0;
+                top: 0;
+                z-index: -9999;
+
+                // LARGER SCREENS
+                @media screen and (min-width: $screen-sm-min) {
+                    background: linear-gradient(rgba($gray-darker, 0.15), rgba($gray-darker, 0.15)),
+                            linear-gradient(rgba($white, 0.15), rgba($white, 0.15)),
+                            url("/content/uploads/masthead2.jpg");
+                    background-position: center -500px;
+                }
+            }
+        }
+    }
+
+    .form.song-request {
+        background-color: $brand-success;
+        color: $white;
+        padding: 10px 35px;
+        .form-title {
+            @include roboto-light;
+            background-color: $brand-success;
+            color: $white;
+            font-size: $font-size-h4;
+            margin: 0 0 $line-height-computed;
+            padding: 10px 0;
+        }
+
+        .form-control {
+            background-color: $white;
+            &:focus {
+                ~ label {
+                    color: $white;
+                }
+            }
+
+            &:valid ~ label {
+                color: $white;
+            }
+        }
+        .form-control:focus:invalid ~ .float-label,
+        .form-control.focus:invalid ~ .float-label {
+            color: $white;
+        }
+
+        .form-group.submit {
+            margin-bottom: 0;
+            .btn-submit {
+                &:focus,
+                &:hover {
+                    color: $white;
+                    border-color: $white;
+                    outline: none;
+                }
+            }
+            .svg-icon {
+                path {
+                    fill: $white;
+                }
+            }
+        }
+    }

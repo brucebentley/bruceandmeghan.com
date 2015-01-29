@@ -49,11 +49,11 @@
                 width: 100%;
             }
             &::before {
-                background: url('../images/bg-arrow-top.png') repeat-x top left;
+                background: url('images/bg-arrow-top.png') repeat-x top left;
                 top: -9px;
             }
             &::after {
-                background: url('../images/bg-arrow-bottom.png') repeat-x top left;
+                background: url('images/bg-arrow-bottom.png') repeat-x top left;
                 bottom: -9px;
             }
 
@@ -77,7 +77,7 @@
             &::after {
                 @include background-size(50px);
                 background-color: $white;
-                background-image: url('../images/icons/two-hearts-teal.png');
+                background-image: url('images/icons/two-hearts-teal.png');
                 background-position: center;
                 background-repeat: no-repeat;
                 content: "";

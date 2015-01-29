@@ -1,0 +1,44 @@
+///
+/// META-DATA
+///
+
+    .meta {
+        @extend .shadow-1;
+
+        // LARGER SCREENS
+        @media screen and (min-width: $grid-float-breakpoint) {
+            float: right;
+            margin-left: $line-height-computed;
+            max-width: 25%;
+            width: 100%;
+        }
+        // SMALLER SCREENS
+        @media screen and (max-width: $grid-float-breakpoint) {
+            margin-bottom: $line-height-computed;
+        }
+    }
+    .meta-data {
+        @include roboto-light;
+        background-color: $brand-primary;
+        color: $white;
+        margin-bottom: 1px;
+        padding: $line-height-computed 30px;
+        position: relative;
+        width: 100%;
+        > h3 {
+            @include roboto;
+            color: $white;
+            font-size: $font-size-large;
+            margin-top: 0;
+            text-transform: uppercase;
+            .icon {
+                height: $font-size-h4;
+                width: $font-size-h4;
+                margin-right: 6px;
+                top: -2px;
+                path {
+                    fill: $white;
+                }
+            }
+        }
+    }

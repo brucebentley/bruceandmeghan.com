@@ -1,42 +1,41 @@
-    <?php include("templates/header.php"); ?>
+<?php get_header(); ?>
 
-    <div id="primary" class="row-fluid">
-        <div id="content" role="main" class="span8 offset2">
+    <div class="content-wrap">
+        <section class="section entry-content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-9 site-content" role="main">
+                        <?php /* The loop */ ?>
+                        <?php while ( have_posts() ): the_post(); ?>
+                            <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+                                <h1 class="entry-title"><?php the_title(); ?></h1>
 
-            <?php if ( have_posts() ) :
-                // Do we have any posts/pages in the databse that match our query?
-            ?>
+                                <?php if ( has_post_thumbnail() && ! post_password_required() ) : ?>
+                                    <div class="entry-thumbnail">
+                                        <?php the_post_thumbnail(); ?>
+                                    </div>
+                                <?php endif; ?>
 
-                <?php while ( have_posts() ) : the_post();
-                    // If we have a page to show, start a loop that will display it
-                ?>
+                                <div class="entry-content">
+                                    <?php the_content(); ?>
+                                    <?php wp_link_pages(); ?>
+                                </div>
+                            </article>
+                            <?php // comment_template(); ?>
 
-                    <article class="post">
-                        <h1 class="title">
-                            <?php the_title(); // Display the title of the page ?>
-                        </h1>
+                        <?php endwhile; ?>
+                    </div>
 
-                        <div class="the-content">
-                            <?php the_content();
-                                // This call the main content of the page, the stuff in the main text box while composing.
-                                // This will wrap everything in p tags
-                            ?>
+                    <div class="col-md-3 sidebar" id="sideBar" role="complementary">
+                        <div class="sidebar-inner">
+                            <aside class="widget-area">
+                                <?php dynamic_sidebar( 'sidebar' ); ?>
+                            </aside>
+                        </div>
+                    </div><!--/#sideBar -->
+                </div>
+            </div>
+        </section>
+    </div>
 
-                            <?php wp_link_pages(); // This will display pagination links, if applicable to the page ?>
-                        </div><!-- the-content -->
-                    </article>
-
-                <?php endwhile; // OK, let's stop the page loop once we've displayed it ?>
-
-            <?php else : // Well, if there are no posts to display and loop through, let's apologize to the reader (also your 404 error) ?>
-
-                <article class="post error">
-                    <h1 class="404">Nothing posted yet</h1>
-                </article>
-
-            <?php endif; // OK, I think that takes care of both scenarios (having a page or not having a page to show) ?>
-
-        </div><!-- #content .site-content -->
-    </div><!-- #primary .content-area -->
-
-    <?php include("templates/footer.php"); ?>
+<?php get_footer();

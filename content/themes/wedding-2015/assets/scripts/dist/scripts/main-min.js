@@ -1,1 +1,0 @@
-!function(i){"use strict";i(window.jQuery,window,document,void 0)}(function($,i,n,t){"use strict";$(function(){$(".navbar-nav > li > a").click(function(){$(this).parent().addClass("active"),$(this).parent().siblings().removeClass("active")})})});
