@@ -40,12 +40,6 @@ Senator Byrd Sr. spent over $100,000 in the 1930s and 1940s to have many of thes
 <img src="/content/uploads/reception-hall.jpg" class="placeholder img-responsive no-margin top" alt="The Carriage House">
 </div>
 <div class="col-md-6">
-<form class="form song-request" id="songRequest" method="post" action="" accept-charset="UTF-8" name="" role="form">
-<h3 class="form-title centered">Request a Song</h3>
-<div class="form-group required" id=""><label class="sr-only" id="" for="">Song Title</label><input type="text" class="form-control input-lg" id="inputSongName" name="inputSongName" tabindex="1" required><span class="form-highlight"></span><span class="form-bar"></span><label class="float-label" for="inputSongName">Song Title</label></div>
-<div class="form-group required" id=""><label class="sr-only" id="" for="">Artist</label><input type="text" class="form-control input-lg" id="inputArtistName" name="inputArtistName" tabindex="2" required><span class="form-highlight"></span><span class="form-bar"></span><label class="float-label" for="inputArtistName">Artist</label></div>
-<div class="form-group" id=""><label class="sr-only" id="" for="">Dedicate To</label><input type="text" class="form-control input-lg" id="inputDedicate" name="inputDedicate" tabindex="3" required><span class="form-highlight"></span><span class="form-bar"></span><label class="float-label" for="inputDedicate">Dedicate To</label></div>
-<div class="form-group submit" id=""><button class="btn btn-default btn-md btn-flat btn-submit" id="" type="submit" accesskey="s" value="SUBMIT" tabindex="4">SUBMIT<svg class="icon svg-icon arrow-right" viewBox="0 0 20 20"><path fill="none" d="M1.729,9.212h14.656l-4.184-4.184c-0.307-0.306-0.307-0.801,0-1.107c0.305-0.306,0.801-0.306,1.106,0 l5.481,5.482c0.018,0.014,0.037,0.019,0.053,0.034c0.181,0.181,0.242,0.425,0.209,0.66c-0.004,0.038-0.012,0.071-0.021,0.109 c-0.028,0.098-0.075,0.188-0.143,0.271c-0.021,0.026-0.021,0.061-0.045,0.085c-0.015,0.016-0.034,0.02-0.051,0.033l-5.483,5.483 c-0.306,0.307-0.802,0.307-1.106,0c-0.307-0.305-0.307-0.801,0-1.105l4.184-4.185H1.729c-0.436,0-0.788-0.353-0.788-0.788 S1.293,9.212,1.729,9.212z"></path></svg></button></div>
-</form>
+[contact-form-7 id="469" title="Song Request" html_id="songRequestForm" html_class="form song-request"]
 </div>
 </div>

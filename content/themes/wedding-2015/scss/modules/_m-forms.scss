@@ -26,6 +26,9 @@
             outline: none;
         }
     }
+    textarea.form-control {
+        max-width: 100%;
+    }
 
 /**
  * INPUT SIZES
@@ -41,12 +44,16 @@
     /* Form Control Labels */
     .form {
         label {
-            @include roboto-light;
+            @include roboto-medium;
             @include transition(0.2s all ease);
             color: $input-color;
-            font-size: $font-size-base;
+            font-size: $font-size-small;
             position: absolute;
-            top: -18px;
+            top: -22px;
+
+            > .req {
+                color: $brand-primary;
+            }
         }
 
         .float-label {

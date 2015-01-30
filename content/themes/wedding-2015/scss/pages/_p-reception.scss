@@ -50,20 +50,24 @@
     }
 
     .form.song-request {
-        background-color: $brand-success;
-        color: $white;
+        background-color: transparent;
+        color: $input-color;
         padding: 10px 35px;
         .form-title {
             @include roboto-light;
-            background-color: $brand-success;
-            color: $white;
-            font-size: $font-size-h4;
+            color: $gray;
+            font-size: $font-size-h3;
             margin: 0 0 $line-height-computed;
-            padding: 10px 0;
+            padding: 0;
+        }
+
+        .form-label {
+
         }
 
         .form-control {
             background-color: $white;
+            margin-bottom: 15px;
             &:focus {
                 ~ label {
                     color: $white;

@@ -12,6 +12,8 @@
     $(function() {
         // The DOM is ready!
 
+        $('#our-story').prepend('<div class="section-background"><div class="section-background-image"></div></div>');
+
         // Active Navigation Tab
         $('.navbar-nav > li > a').click(function() {
             $(this).parent().addClass('active');

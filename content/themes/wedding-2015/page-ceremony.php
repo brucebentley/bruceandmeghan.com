@@ -42,66 +42,7 @@
         // Google Maps Integration
          google.maps.event.addDomListener(window, 'load', init);
          function init() {
-              var styles = [
-                  {
-                      "featureType":"administrative",
-                      "elementType":"all",
-                      "stylers": [
-                          { "visibility":"on" },
-                          { "lightness":33 }
-                      ]
-                  },{
-                      "featureType":"landscape",
-                      "elementType":"all",
-                      "stylers":[
-                          { "color":"#f2e5d4" }
-                      ]
-                  },{
-                      "featureType":"poi.park",
-                      "elementType":"geometry",
-                      "stylers":[
-                          { "color":"#c5dac6" }
-                      ]
-                  },{
-                      "featureType":"poi.park",
-                      "elementType":"labels",
-                      "stylers":[
-                          { "visibility":"on" },
-                          { "lightness":20 }
-                      ]
-                  },{
-                      "featureType":"road",
-                      "elementType":"all",
-                      "stylers":[
-                          { "lightness":20 }
-                      ]
-                  },{
-                      "featureType":"road.highway",
-                      "elementType":"geometry",
-                      "stylers":[
-                          { "color":"#c5c6c6" }
-                      ]
-                  },{
-                      "featureType":"road.arterial",
-                      "elementType":"geometry",
-                      "stylers":[
-                          { "color":"#e4d7c6" }
-                      ]
-                  },{
-                      "featureType":"road.local",
-                      "elementType":"geometry",
-                      "stylers":[
-                          { "color":"#fbfaf7" }
-                      ]
-                  },{
-                      "featureType":"water",
-                      "elementType":"all",
-                      "stylers":[
-                          { "visibility":"on"},
-                          { "color":"#acbcc9"}
-                      ]
-                  }
-              ];
+              var styles = [{"featureType":"water","stylers":[{"saturation":43},{"lightness":-11},{"hue":"#0088ff"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"hue":"#ff0000"},{"saturation":-100},{"lightness":99}]},{"featureType":"road","elementType":"geometry.stroke","stylers":[{"color":"#808080"},{"lightness":54}]},{"featureType":"landscape.man_made","elementType":"geometry.fill","stylers":[{"color":"#ece2d9"}]},{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#ccdca1"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#767676"}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"}]},{"featureType":"poi","stylers":[{"visibility":"on"}]},{"featureType":"landscape.natural","elementType":"geometry.fill","stylers":[{"visibility":"on"},{"color":"#EBE5E0"}]},{"featureType":"poi.park","stylers":[{"visibility":"on"}]},{"featureType":"poi.sports_complex","stylers":[{"visibility":"on"}]}];
 
               var mapOptions = {
                   zoom: 14,
