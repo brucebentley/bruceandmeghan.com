@@ -53,7 +53,7 @@
             @include background-size(cover);
             background: linear-gradient(rgba($gray-darker, 0.15), rgba($gray-darker, 0.15)),
                         linear-gradient(rgba($white, 0.15), rgba($white, 0.15)),
-                        url("images/masthead/masthead3-mobile.jpg");
+                        url("/content/uploads/masthead3-mobile.jpg");
             background-position: center -90px;
             background-repeat: no-repeat;
             bottom: 0;
@@ -71,7 +71,7 @@
                 @include background-size(contain);
                 background: linear-gradient(rgba($gray-darker, 0.15), rgba($gray-darker, 0.15)),
                         linear-gradient(rgba($white, 0.15), rgba($white, 0.15)),
-                        url("images/masthead/masthead3.jpg");
+                        url("/content/uploads/masthead3.jpg");
                 background-position: center -500px;
             }
         }
