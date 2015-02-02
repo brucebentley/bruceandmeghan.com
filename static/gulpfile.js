@@ -127,11 +127,11 @@ gulp.task('wiredep', function () {
 gulp.task('serve', ['styles'], function () {
     browserSync({
         notify: false,
-        port: 3000,
+        port: 8888,
         logPrefix: 'WEDDING',
         // https: true,
         server: {
-            baseDir: ['.tmp', 'src'],
+            baseDir: ['./', '.tmp', 'src'],
             routes: {
                 '/bower_components': 'bower_components'
             }

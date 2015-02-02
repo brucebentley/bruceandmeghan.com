@@ -1,4 +1,24 @@
 
+        <section class="section bg-color social-feeds" id="socialFeeds">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title centered">Let's Get Social</h2>
+                    <h4 class="sub-title centered">Spread the word, &amp; let's have a great time!</h4>
+
+                    <hr class="divider love alt small">
+
+                    <div class="col-md-12">
+                        <p class="welcome centered">
+                            Throughout this entire process, we'd <i>LOVE</i> for everyone to share in the excitement with us!<br/>
+                            To participate, simply tag all of your photos/posts/tweets/updates with our wedding tag:<br/>
+
+                            <h2 class="sub-title centered">#MeetTheBentleys</h2>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <?php include("parts/content/registry.php"); ?>
 
         <section class="section footer contact-info" id="contactInfo">

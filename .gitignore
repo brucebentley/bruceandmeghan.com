@@ -21,3 +21,6 @@ readme.html
 license.txt
 .log
 .DS_Store
+
+prepros.cfg
+config.codekit
