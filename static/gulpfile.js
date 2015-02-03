@@ -127,7 +127,7 @@ gulp.task('wiredep', function () {
 gulp.task('serve', ['styles'], function () {
     browserSync({
         notify: false,
-        port: 8888,
+        port: 8000,
         logPrefix: 'WEDDING',
         // https: true,
         server: {

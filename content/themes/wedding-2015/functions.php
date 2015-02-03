@@ -34,12 +34,12 @@ function getContrast50($hexcolor){
 
             wp_enqueue_style('thm-style',get_stylesheet_uri());
 
-            wp_enqueue_script('jquery');
-            wp_enqueue_script('bootstrap',THMJS.'bootstrap.min.js',array(),false,true);
-            wp_enqueue_script('SmoothScroll',THMJS.'SmoothScroll.js',array(),false,true);
-            wp_enqueue_script('scrollTo',THMJS.'jquery.scrollTo.js',array(),false,true);
-            wp_enqueue_script('nav',THMJS.'jquery.nav.js',array(),false,true);
-            wp_enqueue_script('parallax',THMJS.'jquery.parallax.js',array(),false,true);
+            //wp_enqueue_script('jquery');
+            //wp_enqueue_script('bootstrap',THMJS.'bootstrap.min.js',array(),false,true);
+            //wp_enqueue_script('SmoothScroll',THMJS.'SmoothScroll.js',array(),false,true);
+            //wp_enqueue_script('scrollTo',THMJS.'jquery.scrollTo.js',array(),false,true);
+            //wp_enqueue_script('nav',THMJS.'jquery.nav.js',array(),false,true);
+            //wp_enqueue_script('parallax',THMJS.'jquery.parallax.js',array(),false,true);
             wp_enqueue_script('main',THMJS.'main.js',array(),false,true);
         }
         add_action('wp_enqueue_scripts','wedding_style');

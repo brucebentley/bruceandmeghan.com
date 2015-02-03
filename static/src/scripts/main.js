@@ -12,28 +12,13 @@
     $(function() {
         // The DOM is ready!
 
-        $('#our-story').prepend('<div class="section-background"><div class="section-background-image"></div></div>');
+        //$('#our-story').prepend('<div class="section-background"><div class="section-background-image"></div></div>');
 
         // Active Navigation Tab
         $('.navbar-nav > li > a').click(function() {
             $(this).parent().addClass('active');
             $(this).parent().siblings().removeClass('active');
         });
-
-        $('a[href*=#]:not([href=#])').click(function() {
-            if (location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && location.hostname === this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-                if (target.length) {
-                    $('html,body').animate({
-                        scrollTop: target.offset().top
-                    }, 1000);
-                    return false;
-                }
-            }
-        });
-
-
 
         // The Final Countdown
         $('#countdownRow').countdown('2015/07/11', function(event) {
