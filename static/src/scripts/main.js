@@ -51,7 +51,8 @@
                 url      : '/wp-core/wp-admin/admin-ajax.php',
                 data     : data,
                 dataType : 'json',
-                success  : function(response) {
+                success  : function(data) {
+                    console.log(data);
                     swal({
                         title: 'RSVP Confirmed!',
                         text: "We can't wait to see you there!",
@@ -74,7 +75,7 @@
                         });
                     });
                 },
-                error : function(jqXHR, textStatus, errorThrown) {
+                error : function(data) {
                     swal({
                         title: 'Uh Oh!',
                         text: "It looks like something didn't go quite as planned. We're sorry for that!",
