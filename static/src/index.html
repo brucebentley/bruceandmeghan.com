@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html class="no-js" lang="">
 <head>
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.5.10/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Calligraffitti', 'Roboto', 'Roboto Condensed']
+            }
+        });
+    </script>
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
@@ -243,18 +251,22 @@
 
                     <div class="row venue-details">
                         <div class="col-md-12">
-                            <!-- <a href="https://www.google.com/maps/place/16+Rosemont+Manor+Ln,+Berryville,+VA+22611/@39.1568465,-77.9931161,17z/data=!3m1!4b1!4m2!3m1!1s0x89b5e30ba55d857b:0xfa419dd29d61d3a6" class="street" target="_blank"> -->
                             <p class="welcome centered">
                                 <small>
                                     If you'd like additional information about the venue, or you need to reach out to them directly, feel free. Here's how you can get in touch:
                                 </small>
                             </p>
-                            <address class="welcome centered no-margin bottom">
-                                <strong>Rosemont Historic Manor</strong><br>
-                                16 Rosemont Manor Lane<br>
-                                Berryville, VA 22611<br>
-                                <a href="tel:+17038795683" class="phone">(703) 879-5683</a>
-                            </address>
+                            <div class="centered no-margin top bottom">
+                                <div class="vcard">
+                                    <strong>Historic Rosemont Manor</strong><br>
+                                    <a href="https://www.google.com/maps/place/16+Rosemont+Manor+Ln,+Berryville,+VA+22611/@39.1568465,-77.9931161,17z/data=!3m1!4b1!4m2!3m1!1s0x89b5e30ba55d857b:0xfa419dd29d61d3a6" target="_blank">
+                                        16 Rosemont Manor Lane<br>
+                                        Berryville, VA 22611
+                                    </a>
+                                    <br>
+                                    <a href="tel:+17038795683" class="phone">(703) 879-5683</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -268,7 +280,9 @@
                         <h4 class="sub-title centered">Please let us know in advance if you plan on attending all, or any, of the events.</h4>
 
                         <hr class="divider love small">
+                    </div>
 
+                    <div class="row">
                         <div class="col-md-12">
                             <form class="form" id="rsvpForm" method="post" action="" accept-charset="UTF-8" name="" role="form">
                                 <div class="row">
@@ -329,6 +343,34 @@
                                     </div>
                                 </div>
                             </form>
+                        </div>
+                    </div>
+
+                    <div class="row menu-details">
+                        <h4 class="sub-title centered">What's On The Menu You Ask?</h4>
+                        <hr class="divider love">
+
+                        <div class="col-md-6">
+                            <div class="card menu">
+                                <div class="card-media">
+                                    <img data-src="holder.js/100%x300" class="card-media-image img-responsive" alt="Lemon Basil Salmon">
+                                    <span class="card-holder">
+                                        <h3 class="card-heading">Lemon Basil Salmon</h3>
+                                        <span class="block">
+                                            <span>Served with a Warm Vinaigrette</span>
+                                        </span>
+
+                                        <div class="card-details">
+                                            <dl>
+                                                <dt>Orzo Pasta de Parma</dt>
+                                                <dd>Tossed with Olive Oil, Garlic, Basil Puree, Parmesan Cheese, &amp; drizzled with a Red Pepper Brunoise.</dd>
+                                                <dt>Warm Balsamic Grilled Vegetables</dt>
+                                                <dd>Asparagus, Squash, Colorful Peppers, Bermuda Onions, &amp; Grape Tomatoes.</dd>
+                                            </dl>
+                                        </div>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -752,203 +794,9 @@
                     <div class="col-md-12">
                         <p class="welcome centered">
                             Throughout this entire process, we'd <i>LOVE</i> for everyone to share in the excitement with us!<br/>
-                            To participate, simply tag all of your photos/posts/tweets/updates with our wedding tag: <b>#MeetTheBentleys</b> &amp; we'll share them all on this site.
+                            To participate, simply tag all of your photos/posts/tweets/updates with our wedding tag:<br/>
+                            <h3 class="sub-title centered">#MeetTheBentleys</h3>
                         </p>
-                    </div>
-                </div>
-
-                <div class="row the-feeds">
-                    <!-- TWEETS -->
-                    <div class="col-md-4 twitter">
-                        <h4 class="sub-title centered">
-                            <i class="icon fa fa-twitter fa-fw"></i>Twitter
-                        </h4>
-                        <div id="recentTweets">
-                            <div class="media">
-                                <div class="media-left">
-                                    <a href="#" target="_blank">
-                                        <img data-src="holder.js/64x64/lava" class="media-object img-circle" alt="...">
-                                    </a>
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">
-                                        User's Name <small>@UserName</small>
-                                    </h4>
-                                    <date class="post-time">Posted: 4 hours ago</date>
-                                    <p class="caption">
-                                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-                                    </p>
-                                    <div class="social-sharing">
-                                        <div class="btn-group btn-group-justified">
-                                            <a href="#" class="btn btn-social btn-flat reply" target="_blank">
-                                                <i class="icon fa fa-reply fa-fw"></i>
-                                            </a>
-                                            <a href="#" class="btn btn-social btn-flat retweet" target="_blank">
-                                                <i class="icon fa fa-retweet fa-fw"></i>
-                                            </a>
-                                            <a href="#" class="btn btn-social btn-flat favorite" target="_blank">
-                                                <i class="icon fa fa-star fa-fw"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <div class="media-left">
-                                    <a href="#" target="_blank">
-                                        <img data-src="holder.js/64x64/vine" class="media-object img-circle" alt="...">
-                                    </a>
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">
-                                        User's Name <small>@UserName</small>
-                                    </h4>
-                                    <date class="post-time">Posted: 4 hours ago</date>
-                                    <p class="caption">
-                                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-                                    </p>
-                                    <div class="social-sharing">
-                                        <div class="btn-group btn-group-justified">
-                                            <a href="#" class="btn btn-social btn-flat reply" target="_blank">
-                                                <i class="icon fa fa-reply fa-fw"></i>
-                                            </a>
-                                            <a href="#" class="btn btn-social btn-flat retweet" target="_blank">
-                                                <i class="icon fa fa-retweet fa-fw"></i>
-                                            </a>
-                                            <a href="#" class="btn btn-social btn-flat favorite" target="_blank">
-                                                <i class="icon fa fa-star fa-fw"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- FACEBOOK -->
-                    <div class="col-md-4 facebook">
-                        <h4 class="sub-title centered">
-                            <i class="icon fa fa-facebook fa-fw"></i>Facebook
-                        </h4>
-                        <div id="recentFB">
-                            <div class="media">
-                                <div class="media-left">
-                                    <a href="#" target="_blank">
-                                        <img data-src="holder.js/64x64/vine" class="media-object img-circle" alt="...">
-                                    </a>
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">
-                                        User's Name <small>@UserName</small>
-                                    </h4>
-                                    <date class="post-time">Posted: 4 hours ago</date>
-                                    <p class="caption">
-                                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-                                    </p>
-                                    <div class="social-sharing">
-                                        <div class="btn-group btn-group-justified">
-                                            <a href="#" class="btn btn-social btn-flat like" target="_blank">
-                                                <i class="icon fa fa-thumbs-o-up fa-fw"></i>
-                                            </a>
-                                            <a href="#" class="btn btn-social btn-flat comment" target="_blank">
-                                                <i class="icon fa fa-comments-o fa-fw"></i>
-                                            </a>
-                                            <a href="#" class="btn btn-social btn-flat share" target="_blank">
-                                                <i class="icon fa fa-share fa-fw"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <div class="media-left">
-                                    <a href="#" target="_blank">
-                                        <img data-src="holder.js/64x64/sky" class="media-object img-circle" alt="...">
-                                    </a>
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">
-                                        User's Name <small>@UserName</small>
-                                    </h4>
-                                    <date class="post-time">Posted: 4 hours ago</date>
-                                    <p class="caption">
-                                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-                                    </p>
-                                    <div class="social-sharing">
-                                        <div class="btn-group btn-group-justified">
-                                            <a href="#" class="btn btn-social btn-flat like" target="_blank">
-                                                <i class="icon fa fa-thumbs-o-up fa-fw"></i>
-                                            </a>
-                                            <a href="#" class="btn btn-social btn-flat comment" target="_blank">
-                                                <i class="icon fa fa-comments-o fa-fw"></i>
-                                            </a>
-                                            <a href="#" class="btn btn-social btn-flat share" target="_blank">
-                                                <i class="icon fa fa-share fa-fw"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- INSTAGRAM -->
-                    <div class="col-md-4 instagram">
-                        <h4 class="sub-title centered">
-                            <i class="icon fa fa-instagram fa-fw"></i>Instagram
-                        </h4>
-                        <div id="recentInstagram">
-                            <div class="media">
-                                <div class="media-left">
-                                    <a href="#" target="_blank">
-                                        <img data-src="holder.js/64x64/sky" class="media-object img-circle" alt="...">
-                                    </a>
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">
-                                        User's Name <small>@UserName</small>
-                                    </h4>
-                                    <date class="post-time">Posted: 4 hours ago</date>
-                                    <p class="caption">
-                                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-                                    </p>
-                                    <div class="social-sharing">
-                                        <div class="btn-group btn-group-justified">
-                                            <a href="#" class="btn btn-social btn-flat love" target="_blank">
-                                                <i class="icon fa fa-heart-o fa-fw"></i>
-                                            </a>
-                                            <a href="#" class="btn btn-social btn-flat comments" target="_blank">
-                                                <i class="icon fa fa-comments-o fa-fw"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="media">
-                                <div class="media-left">
-                                    <a href="#" target="_blank">
-                                        <img data-src="holder.js/64x64/lava" class="media-object img-circle" alt="...">
-                                    </a>
-                                </div>
-                                <div class="media-body">
-                                    <h4 class="media-heading">
-                                        User's Name <small>@UserName</small>
-                                    </h4>
-                                    <date class="post-time">Posted: 4 hours ago</date>
-                                    <p class="caption">
-                                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis.
-                                    </p>
-                                    <div class="social-sharing">
-                                        <div class="btn-group btn-group-justified">
-                                            <a href="#" class="btn btn-social btn-flat love" target="_blank">
-                                                <i class="icon fa fa-heart-o fa-fw"></i>
-                                            </a>
-                                            <a href="#" class="btn btn-social btn-flat comments" target="_blank">
-                                                <i class="icon fa fa-comments-o fa-fw"></i>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -1067,6 +915,7 @@
     <script src="/bower_components/jquery.countdown/dist/jquery.countdown.js"></script>
     <script src="/bower_components/holderjs/holder.js"></script>
     <script src="/bower_components/slick.js/slick/slick.js"></script>
+    <script src="/bower_components/sweetalert/lib/sweet-alert.js"></script>
     <script src="scripts/main.js"></script>
     <!-- endbuild -->
 

@@ -38,6 +38,54 @@
             slidesToScroll: 1
         });
 
+        $('#rsvpForm').on('submit', function(e) {
+            e.preventDefault();
+
+            var data = {
+                action : 'wufoo_post',
+                fields : $(this).serialize()
+            };
+
+            $.ajax({
+                type     : 'POST',
+                url      : '/wp-core/wp-admin/admin-ajax.php',
+                data     : data,
+                dataType : 'json',
+                success  : function(response) {
+                    swal({
+                        title: 'RSVP Confirmed!',
+                        text: "We can't wait to see you there!",
+                        type: 'success',
+                        showCancelButton: 'true',
+                        confirmButtonColor: '#4db6ac',
+                        confirmButtonText: 'Nope, All Set!',
+                        cancelButtonColor: '#4db6ac',
+                        cancelButtonText: 'RSVP Another?',
+                        closeOnConfirm: false,
+                        closeOnCancel: true
+                    }, function() {
+                        swal({
+                            title: 'Thanks!',
+                            text: 'Your RSVP has been confirmed.',
+                            type: 'success',
+                            confirmButtonColor: '#4db6ac',
+                            confirmButtonText: 'Back To The Site',
+                            closeOnConfirm: true
+                        });
+                    });
+                },
+                error : function(jqXHR, textStatus, errorThrown) {
+                    swal({
+                        title: 'Uh Oh!',
+                        text: "It looks like something didn't go quite as planned. We're sorry for that!",
+                        type: 'error',
+                        confirmButtonColor: '#e84e40',
+                        confirmButtonText: 'Try Again...',
+                        closeOnConfirm: true
+                    });
+                }
+            });
+        });
     });
 
     // The rest of code goes here!

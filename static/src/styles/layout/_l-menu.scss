@@ -1,0 +1,54 @@
+///
+/// MENU
+///
+
+    .card.menu {
+        @include transition(all 200ms ease-in-out, box-shadow 100ms);
+        .card-details {
+            @include transition(all 2.5s ease);
+            bottom: 0;
+            color: $white;
+            display: none;
+            left: 0;
+            padding: 10px 20px;
+            position: absolute;
+            width: 100%;
+        }
+        .card-holder {
+            .block {
+                @include transition(0.3s all ease);
+                span {
+                    @include roboto-light-italic;
+                    font-size: $font-size-small;
+                }
+            }
+        }
+        .card-heading {
+            @include roboto-condensed;
+        }
+
+        /// Active, Focus, and Hover States
+        &:active,
+        &:focus,
+        &:hover {
+            .card-details {
+                display: block;
+            }
+            .card-holder {
+                background-color: $
+                height: 100%;
+                .block {
+                    bottom: auto;
+                    top: 60px;
+                    span {
+                        font-size: $font-size-base;
+                    }
+                }
+            }
+            .card-heading {
+                bottom: auto;
+                top: 20px;
+            }
+
+        }
+    }
