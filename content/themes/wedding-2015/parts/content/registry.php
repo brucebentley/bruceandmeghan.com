@@ -12,7 +12,7 @@
                 </a>
             </div>
             <div class="col-md-2">
-                <a href="#" class="centered link macys" alt="Macy's Registry" target="_blank">
+                <a href="http://www1.macys.com/registry/wedding/guest/?registryId=2220564" class="centered link macys" alt="Macy's Registry" target="_blank">
                     <img src="<?php echo get_template_directory_uri(); ?>/images/registry/macys-gray.png" class="img-responsive" alt="Macy's">
                 </a>
             </div>

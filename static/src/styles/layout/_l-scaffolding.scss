@@ -40,7 +40,10 @@
         padding: ($font-size-base * 2) 0 ($font-size-base * 2.5);
         position: relative;
 
-        &.bg-color {
+        &.bg-color,
+        &.the-events,
+        &.social-feeds,
+        &.featured-photos, {
             background-color: $gray-lighter;
             &::before,
             &::after {

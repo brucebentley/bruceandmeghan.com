@@ -48,7 +48,7 @@
 
             $.ajax({
                 type     : 'POST',
-                url      : '/wp-core/wp-admin/admin-ajax.php',
+                url      : '/wp-admin/admin-ajax.php',
                 data     : data,
                 dataType : 'json',
                 success  : function(data) {

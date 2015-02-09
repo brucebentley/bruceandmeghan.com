@@ -1,7 +1,7 @@
 <div class="col-sm-6 col-md-5 col-md-offset-1">
 <div class="panel panel-default wedding-couple first">
 <div class="panel-heading clearfix">
-<img src="/content/uploads/bruce-avatar.png" class="person-avatar img-circle" alt="Bruce Bentley">
+<img src="/wp-content/uploads/bruce-avatar.png" class="person-avatar img-circle" alt="Bruce Bentley">
 <h1>Bruce</h1>
 <p>Bentley</p>
 </div>
@@ -13,7 +13,7 @@
 <div class="col-sm-6 col-md-5">
 <div class="panel panel-default wedding-couple">
 <div class="panel-heading clearfix">
-<img src="/content/uploads/meghan-avatar.png" class="person-avatar img-circle" alt="Meghan Slupe">
+<img src="/wp-content/uploads/meghan-avatar.png" class="person-avatar img-circle" alt="Meghan Slupe">
 <h1 class="accent-color">Meghan</h1>
 <p>Slupe</p>
 </div>

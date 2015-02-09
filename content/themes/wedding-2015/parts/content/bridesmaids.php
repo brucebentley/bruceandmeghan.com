@@ -5,7 +5,7 @@
 <div class="slide-inner maid-of-honor">
 <div class="row">
 <div class="col-md-3 col-md-offset-1">
-<img class="best-friends" data-lazy="/content/uploads/alyssa-sitko.png">
+<img class="best-friends" data-lazy="/wp-content/uploads/alyssa-sitko.png">
 </div>
 <div class="col-md-6 col-md-offset-1">
 <div class="person">
@@ -25,7 +25,7 @@
 <div class="slide-inner">
 <div class="row">
 <div class="col-md-3 col-md-offset-1">
-<img class="best-friends" data-lazy="/content/uploads/courtney-leopold.png">
+<img class="best-friends" data-lazy="/wp-content/uploads/courtney-leopold.png">
 </div>
 <div class="col-md-6 col-md-offset-1">
 <div class="person">
@@ -45,7 +45,7 @@
 <div class="slide-inner">
 <div class="row">
 <div class="col-md-3 col-md-offset-1">
-<img class="best-friends" data-lazy="/content/uploads/randi-shaw.png">
+<img class="best-friends" data-lazy="/wp-content/uploads/randi-shaw.png">
 </div>
 <div class="col-md-6 col-md-offset-1">
 <div class="person">
@@ -65,7 +65,7 @@
 <div class="slide-inner">
 <div class="row">
 <div class="col-md-3 col-md-offset-1">
-<img class="best-friends" data-lazy="/content/uploads/emily-tucker.png">
+<img class="best-friends" data-lazy="/wp-content/uploads/emily-tucker.png">
 </div>
 <div class="col-md-6 col-md-offset-1">
 <div class="person">
@@ -85,7 +85,7 @@
 <div class="slide-inner">
 <div class="row">
 <div class="col-md-3 col-md-offset-1">
-<img class="best-friends" data-lazy="/content/uploads/meredith-wilson.png">
+<img class="best-friends" data-lazy="/wp-content/uploads/meredith-wilson.png">
 </div>
 <div class="col-md-6 col-md-offset-1">
 <div class="person">
@@ -105,7 +105,7 @@
 <div class="slide-inner">
 <div class="row">
 <div class="col-md-3 col-md-offset-1">
-<img class="best-friends" data-lazy="/content/uploads/alex-richter.png">
+<img class="best-friends" data-lazy="/wp-content/uploads/alex-richter.png">
 </div>
 <div class="col-md-6 col-md-offset-1">
 <div class="person">
@@ -125,7 +125,7 @@
 <div class="slide-inner">
 <div class="row">
 <div class="col-md-3 col-md-offset-1">
-<img class="best-friends" data-lazy="/content/uploads/taylor-bentley.png">
+<img class="best-friends" data-lazy="/wp-content/uploads/taylor-bentley.png">
 </div>
 <div class="col-md-6 col-md-offset-1">
 <div class="person">
@@ -145,7 +145,7 @@
 <div class="slide-inner">
 <div class="row">
 <div class="col-md-3 col-md-offset-1">
-<img class="best-friends" data-lazy="/content/uploads/rachel-slupe.png">
+<img class="best-friends" data-lazy="/wp-content/uploads/rachel-slupe.png">
 </div>
 <div class="col-md-6 col-md-offset-1">
 <div class="person">

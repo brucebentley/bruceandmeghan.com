@@ -5,7 +5,7 @@
 <div class="slide-inner best-man">
 <div class="row">
 <div class="col-md-3 col-md-offset-1">
-<img class="best-friends" data-lazy="/content/uploads/jon-bentley.png">
+<img class="best-friends" data-lazy="/wp-content/uploads/jon-bentley.png">
 </div>
 <div class="col-md-6 col-md-offset-1">
 <div class="person">
@@ -25,7 +25,7 @@
 <div class="slide-inner">
 <div class="row">
 <div class="col-md-3 col-md-offset-1">
-<img class="best-friends" data-lazy="/content/uploads/korey-benton.png">
+<img class="best-friends" data-lazy="/wp-content/uploads/korey-benton.png">
 </div>
 <div class="col-md-6 col-md-offset-1">
 <div class="person">
@@ -45,7 +45,7 @@
 <div class="slide-inner">
 <div class="row">
 <div class="col-md-3 col-md-offset-1">
-<img class="best-friends" data-lazy="/content/uploads/mike-smith.png">
+<img class="best-friends" data-lazy="/wp-content/uploads/mike-smith.png">
 </div>
 <div class="col-md-6 col-md-offset-1">
 <div class="person">
@@ -65,7 +65,7 @@
 <div class="slide-inner">
 <div class="row">
 <div class="col-md-3 col-md-offset-1">
-<img class="best-friends" data-lazy="/content/uploads/evan-slupe.png">
+<img class="best-friends" data-lazy="/wp-content/uploads/evan-slupe.png">
 </div>
 <div class="col-md-6 col-md-offset-1">
 <div class="person">
@@ -85,7 +85,7 @@
 <div class="slide-inner">
 <div class="row">
 <div class="col-md-3 col-md-offset-1">
-<img class="best-friends" data-lazy="/content/uploads/jeff-bentley.png">
+<img class="best-friends" data-lazy="/wp-content/uploads/jeff-bentley.png">
 </div>
 <div class="col-md-6 col-md-offset-1">
 <div class="person">
@@ -105,7 +105,7 @@
 <div class="slide-inner">
 <div class="row">
 <div class="col-md-3 col-md-offset-1">
-<img class="best-friends" data-lazy="/content/uploads/danny-bentley.png">
+<img class="best-friends" data-lazy="/wp-content/uploads/danny-bentley.png">
 </div>
 <div class="col-md-6 col-md-offset-1">
 <div class="person">
@@ -125,7 +125,7 @@
 <div class="slide-inner">
 <div class="row">
 <div class="col-md-3 col-md-offset-1">
-<img class="best-friends" data-lazy="/content/uploads/kyle-bentley.png">
+<img class="best-friends" data-lazy="/wp-content/uploads/kyle-bentley.png">
 </div>
 <div class="col-md-6 col-md-offset-1">
 <div class="person">

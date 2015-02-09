@@ -1,64 +1,154 @@
-<div class="col-md-12">
-<p class="welcome centered">
-Join us for the Wedding Ceremony &amp; Reception at the beautiful <a href="http://rosemont1811.com/" alt="Historic Rosemont Manor" target="_blank">Historic Rosemont Manor</a>, located in Berryville, Virginia.
-</p>
+<form class="form" id="rsvpForm" method="post" action="https://brucebentley.wufoo.com/forms/m1pswrrl1up254b/#public" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" role="form" novalidate>
+<div class="row">
+<div class="col-md-3 form-group required" id="foli9">
+<label class="sr-only" id="title9" for="Field9">Full Name: <span class="req" id="req_9">*</span></label>
+<input type="text" class="form-control input-lg" id="Field9" name="Field9" tabindex="1" maxlength="255" required>
+<span class="form-highlight"></span>
+<span class="form-bar"></span>
+<label class="float-label" for="Field9">Full Name: <span class="req">*</span></label>
 </div>
-<div class="col-sm-6 col-md-5 col-md-offset-1">
-<div class="event card">
+<div class="col-md-3 form-group required" id="foli10">
+<label class="sr-only" id="title10" for="Field10">Email Address: <span class="req" id="req_10">*</span></label>
+<input type="email" class="form-control input-lg" id="Field10" name="Field10" tabindex="2" spellcheck="false" maxlength="255" required>
+<span class="form-highlight"></span>
+<span class="form-bar"></span>
+<label class="float-label" for="Field10">Email Address: <span class="req">*</span></label>
+</div>
+<div class="col-md-3 form-group required" id="foli11">
+<label class="sr-only" id="title11" for="Field11">Will You Attend... <span class="req" id="req_11">*</span></label>
+<div class="select">
+<select class="form-control input-lg" id="Field11" name="Field11" tabindex="3" required>
+<option value="" selected="selected"></option>
+<option value="All Events">All Events</option>
+<option value="The Main Ceremony">The Main Ceremony</option>
+<option value="The Wedding Reception">The Wedding Reception</option>
+<option value="Not Attending">Not Attending</option>
+</select>
+<span class="form-highlight"></span>
+<span class="form-bar"></span>
+<label class="float-label" for="Field11">Will You Attend... <span class="req">*</span></label>
+</div>
+</div>
+<div class="col-md-3 form-group required" id="foli12">
+<label class="sr-only" id="title12" for="Field12">Menu Selection: <span class="req" id="req_12">*</span></label>
+<div class="select">
+<select class="form-control input-lg" id="Field12" name="Field12" tabindex="4" required>
+<option value="" selected="selected"></option>
+<option value="Honey Roasted Chicken Breast">Honey Roasted Chicken Breast</option>
+<option value="Lemon Basil Salmon">Lemon Basil Salmon</option>
+<option value="Penne a la Florentina">Penne a la Florentina</option>
+<option value="Chicken Tenders">Chicken Tenders</option>
+</select>
+<span class="form-highlight"></span>
+<span class="form-bar"></span>
+<label class="float-label" for="Field12">Menu Selection: <span class="req">*</span></label>
+</div>
+</div>
+</div>
+<div class="row submit centered">
+<div class="col-md-12 form-group" id="rsvpSubmit">
+<button class="btn btn-primary btn-lg btn-raised btn-submit" id="saveForm" type="submit" accesskey="s" name="saveForm" value="RSVP ME!">RSVP ME!</button>
+</div>
+<div class="hidden">
+<label for="comment">Do Not Fill This Out</label>
+<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+<input type="hidden" id="idstamp" name="idstamp" value="znpPRaZgGrfWfXSmOWncSIJfiAKIFFE14OXQDL+EpFY=" />
+</div>
+</div>
+</form>
+
+<div class="row menu-details">
+<h4 class="sub-title centered">What's On The Menu You Ask?<br>
+<small>Keep in mind, we're 99.9% sure these won't change, but you never know...</small>
+</h4>
+<hr class="divider love">
+
+<div class="col-md-6 clearfix">
+<div class="card menu">
 <div class="card-media">
-<img src="/content/uploads/rosemont-front.jpg" class="card-media-image img-responsive" alt="Rosemont Historic Manor">
+<img src="/wp-content/uploads/salmon.jpg" class="card-media-image img-responsive" alt="Lemon Basil Salmon">
 <span class="card-holder">
-<h3 class="card-heading">The Main Ceremony</h3>
+<h3 class="card-heading">Lemon Basil Salmon</h3>
 <span class="block">
-<i class="icon fa fa-clock-o fa-fw pull-left"></i>
-<span>5:30 PM - 6:00 PM</span>
+<span>Served with a Warm Vinaigrette</span>
 </span>
+
+<div class="card-details">
+<dl>
+<dt>Orzo Pasta de Parma</dt>
+<dd>Tossed with Olive Oil, Garlic, Basil Puree, Parmesan Cheese, &amp; drizzled with a Red Pepper Brunoise.</dd>
+<dt>Warm Balsamic Grilled Vegetables</dt>
+<dd>Asparagus, Squash, Colorful Peppers, Bermuda Onions, &amp; Grape Tomatoes.</dd>
+</dl>
+</div>
 </span>
 </div>
-<div class="card-body">
-The Ceremony itself will begin at 5:30 PM &amp; will be held on the front lawn of The Manor. It will be followed by a Happy Hour &amp; a rockin' Party that will last the rest of the evening.
-</div>
-<div class="card-footer">
-<a href="/ceremony" class="btn btn-flat">Learn More <svg class="icon svg-icon arrow-right" viewBox="0 0 20 20"><path fill="none" d="M1.729,9.212h14.656l-4.184-4.184c-0.307-0.306-0.307-0.801,0-1.107c0.305-0.306,0.801-0.306,1.106,0 l5.481,5.482c0.018,0.014,0.037,0.019,0.053,0.034c0.181,0.181,0.242,0.425,0.209,0.66c-0.004,0.038-0.012,0.071-0.021,0.109 c-0.028,0.098-0.075,0.188-0.143,0.271c-0.021,0.026-0.021,0.061-0.045,0.085c-0.015,0.016-0.034,0.02-0.051,0.033l-5.483,5.483 c-0.306,0.307-0.802,0.307-1.106,0c-0.307-0.305-0.307-0.801,0-1.105l4.184-4.185H1.729c-0.436,0-0.788-0.353-0.788-0.788 S1.293,9.212,1.729,9.212z"></path>
-</svg>
-</a>
 </div>
 </div>
-</div>
-<div class="col-sm-6 col-md-5">
-<div class="event card">
+<div class="col-md-6">
+<div class="card menu">
 <div class="card-media">
-<img src="/content/uploads/reception-hall.jpg" class="card-media-image img-responsive" alt="The Carriage House">
+<img src="/wp-content/uploads/chicken-breast.jpg" class="card-media-image img-responsive" alt="Honey Roasted Chicken Breast">
 <span class="card-holder">
-<h3 class="card-heading">The Reception</h3>
+<h3 class="card-heading">Honey Roasted Chicken Breast</h3>
 <span class="block">
-<i class="icon fa fa-clock-o fa-fw pull-left"></i>
-<span>6:00 PM - 11:00 PM</span>
+<span>Served with a Clover Honey Mustand Glaze</span>
 </span>
+
+<div class="card-details">
+<dl>
+<dt>Roasted Fingerling Potatoes</dt>
+<dd>Yellow Potatoes, drizzled with Extra Virgin Olive Oil &amp; Sea Salt, tossed with fresh herbs.</dd>
+<dt>Oven Roasted Asparagus</dt>
+<dd>Seasoned with Sea Salt &amp; drizzled with Extra Virgin Olive Oil.</dd>
+</dl>
+</div>
 </span>
 </div>
-<div class="card-body">
-The Reception will begin immediately following the Ceremony &amp; will be held at "The Carriage House", which is just a short walk from the location of the Main Ceremony.
-</div>
-<div class="card-footer">
-<a href="/reception" class="btn btn-flat">Learn More <svg class="icon svg-icon arrow-right" viewBox="0 0 20 20"><path fill="none" d="M1.729,9.212h14.656l-4.184-4.184c-0.307-0.306-0.307-0.801,0-1.107c0.305-0.306,0.801-0.306,1.106,0 l5.481,5.482c0.018,0.014,0.037,0.019,0.053,0.034c0.181,0.181,0.242,0.425,0.209,0.66c-0.004,0.038-0.012,0.071-0.021,0.109 c-0.028,0.098-0.075,0.188-0.143,0.271c-0.021,0.026-0.021,0.061-0.045,0.085c-0.015,0.016-0.034,0.02-0.051,0.033l-5.483,5.483 c-0.306,0.307-0.802,0.307-1.106,0c-0.307-0.305-0.307-0.801,0-1.105l4.184-4.185H1.729c-0.436,0-0.788-0.353-0.788-0.788 S1.293,9.212,1.729,9.212z"></path>
-</svg>
-</a>
 </div>
 </div>
+<div class="clearfix"></div>
+<div class="col-md-6">
+<div class="card menu">
+<div class="card-media">
+<img src="/wp-content/uploads/penne-pasta.jpg" class="card-media-image img-responsive" alt="Penne a la Florentina">
+<span class="card-holder">
+<h3 class="card-heading">Penne a la Florentina</h3>
+<span class="block">
+<span>* Vegetarian Option *</span>
+</span>
+
+<div class="card-details">
+<dl>
+<dt>Penne Pasta</dt>
+<dd>Tossed with Fresh Spinach, Peas, Grape Tomatoes, &amp; Parmesan Cream Sauce, finished with a Basil Puree.</dd>
+<dt>Oven Roasted Asparagus</dt>
+<dd>Seasoned with Sea Salt &amp; drizzled with Extra Virgin Olive Oil.</dd>
+</dl>
+</div>
+</span>
 </div>
 </div>
-<div class="row venue-details">
-<div class="col-md-12">
-<p class="welcome centered">
-<small>
-If you'd like additional information about the venue, or you need to reach out to them directly, feel free. Here's how you can get in touch:
-</small>
-</p>
-<address class="welcome centered no-margin bottom">
-<strong>Rosemont Historic Manor</strong><br>
-16 Rosemont Manor Lane<br>
-Berryville, VA 22611<br>
-<a href="tel:+17038795683" class="phone">(703) 879-5683</a>
-</address>
+</div>
+<div class="col-md-6">
+<div class="card menu">
+<div class="card-media">
+<img src="/wp-content/uploads/chicken-tenders.jpg" class="card-media-image img-responsive" alt="Chicken Tenders">
+<span class="card-holder">
+<h3 class="card-heading">Chicken Tenders</h3>
+<span class="block">
+<span>* For The Non-Adventurous *</span>
+</span>
+
+<div class="card-details">
+<dl>
+<dt>Baked Chicken Strips</dt>
+<dd>Served with: Fresh Fruit Salad, Buttered Corn, Tater Tots, &amp; Carrot Sticks.</dd>
+<dt>Chocolate Chip Cookie</dt>
+<dd></dd>
+</dl>
+</div>
+</span>
+</div>
+</div>
 </div>
