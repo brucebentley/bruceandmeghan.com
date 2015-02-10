@@ -1450,6 +1450,8 @@ class WP_Query {
 	 * Parse a query string and set query type booleans.
 	 *
 	 * @since 1.5.0
+	 * @since 4.2.0 Introduced the ability to order by specific clauses of a `$meta_query`, by passing the clause's
+	 *              array key to `$orderby`.
 	 * @access public
 	 *
 	 * @param string|array $query {
@@ -1497,11 +1499,14 @@ class WP_Query {
 	 *     @type int          $offset                  The number of posts to offset before retrieval.
 	 *     @type string       $order                   Designates ascending or descending order of posts. Default 'DESC'.
 	 *                                                 Accepts 'ASC', 'DESC'.
-	 *     @type string       $orderby                 Sort retrieved posts by parameter. One or more options can be
+	 *     @type string|array $orderby                 Sort retrieved posts by parameter. One or more options may be
 	 *                                                 passed. To use 'meta_value', or 'meta_value_num',
-	 *                                                 'meta_key=keyname' must be also be defined. Default 'date'.
-	 *                                                 Accepts 'none', 'name', 'author', 'date', 'title', 'modified',
-	 *                                                 'menu_order', 'parent', 'ID', 'rand', 'comment_count'.
+	 *                                                 'meta_key=keyname' must be also be defined. To sort by a
+	 *                                                 specific `$meta_query` clause, use that clause's array key.
+	 *                                                 Default 'date'. Accepts 'none', 'name', 'author', 'date',
+	 *                                                 'title', 'modified', 'menu_order', 'parent', 'ID', 'rand',
+	 *                                                 'comment_count', 'meta_value', 'meta_value_num', and the
+	 *                                                 array keys of `$meta_query`.
 	 *     @type int          $p                       Post ID.
 	 *     @type int          $page                    Show the number of posts that would show up on page X of a
 	 *                                                 static front page.
@@ -3421,10 +3426,11 @@ class WP_Query {
 
 		if ( 'ids' == $q['fields'] ) {
 			$this->posts = $wpdb->get_col( $this->request );
+			$this->posts = array_map( 'intval', $this->posts );
 			$this->post_count = count( $this->posts );
 			$this->set_found_posts( $q, $limits );
 
-			return array_map( 'intval', $this->posts );
+			return $this->posts;
 		}
 
 		if ( 'id=>parent' == $q['fields'] ) {
@@ -3433,9 +3439,13 @@ class WP_Query {
 			$this->set_found_posts( $q, $limits );
 
 			$r = array();
-			foreach ( $this->posts as $post ) {
+			foreach ( $this->posts as $key => $post ) {
+				$this->posts[ $key ]->ID = (int) $post->ID;
+				$this->posts[ $key ]->post_parent = (int) $post->post_parent;
+
 				$r[ (int) $post->ID ] = (int) $post->post_parent;
 			}
+
 			return $r;
 		}
 
@@ -3890,15 +3900,17 @@ class WP_Query {
 				// For other tax queries, grab the first term from the first clause.
 				$tax_query_in_and = wp_list_filter( $this->tax_query->queried_terms, array( 'operator' => 'NOT IN' ), 'NOT' );
 
-				$queried_taxonomies = array_keys( $tax_query_in_and );
-				$matched_taxonomy = reset( $queried_taxonomies );
-				$query = $tax_query_in_and[ $matched_taxonomy ];
+				if ( ! empty( $tax_query_in_and ) ) {
+					$queried_taxonomies = array_keys( $tax_query_in_and );
+					$matched_taxonomy = reset( $queried_taxonomies );
+					$query = $tax_query_in_and[ $matched_taxonomy ];
 
-				if ( $query['terms'] ) {
-					if ( 'term_id' == $query['field'] ) {
-						$term = get_term( reset( $query['terms'] ), $matched_taxonomy );
-					} else {
-						$term = get_term_by( $query['field'], reset( $query['terms'] ), $matched_taxonomy );
+					if ( $query['terms'] ) {
+						if ( 'term_id' == $query['field'] ) {
+							$term = get_term( reset( $query['terms'] ), $matched_taxonomy );
+						} else {
+							$term = get_term_by( $query['field'], reset( $query['terms'] ), $matched_taxonomy );
+						}
 					}
 				}
 			}

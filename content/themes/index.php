@@ -1,6 +1,2 @@
 <?php
-    /**
-     * SILENCE IS GOLDEN
-     *
-    **/
-?>
+// Silence is golden.

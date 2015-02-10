@@ -1,0 +1,14 @@
+///
+/// THE EVENTS
+///
+
+    .venue-details {
+        * {
+            font-size: $font-size-small;
+        }
+        p.welcome {
+            @include roboto-light;
+            color: $gray;
+            font-size: $font-size-small;
+        }
+    }

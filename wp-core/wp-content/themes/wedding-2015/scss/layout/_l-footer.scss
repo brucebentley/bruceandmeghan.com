@@ -1,0 +1,56 @@
+///
+/// FOOTER
+///
+
+    .footer {
+        background-color: $gray-darker;
+        padding: $line-height-computed 0;
+
+        &.contact-info {
+            &::before {
+                background: url('images/footer-arrow-top.png') repeat-x top left;
+                content: '';
+                display: block;
+                height: 9px;
+                position: absolute;
+                top: -9px;
+                width: 100%;
+            }
+        }
+
+        &.bottom {
+            border-top: 1px solid rgba($gray-dark, 0.35);
+        }
+
+        .section-title {
+            color: $white;
+        }
+        .sub-title {
+            color: $gray-light;
+        }
+
+        .divider.love {
+            border-color: rgba($gray-dark, 0.35);
+
+            &::after {
+                background-color: $gray-darker;
+            }
+        }
+
+        /* List Group */
+        .list-group-item {
+            background-color: transparent;
+            color: $gray-lighter;
+
+            .icon {
+                margin-right: 15px;
+            }
+        }
+
+
+        /* Very Bottom Section */
+        .copyright {
+            @include roboto-condensed;
+            color: $gray-light;
+        }
+    }
