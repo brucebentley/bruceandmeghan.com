@@ -56,7 +56,7 @@
 </div>
 </div>
 </form>
-
+</div>
 <div class="row menu-details">
 <h4 class="sub-title centered">What's On The Menu You Ask?<br>
 <small>Keep in mind, we're 99.9% sure these won't change, but you never know...</small>
