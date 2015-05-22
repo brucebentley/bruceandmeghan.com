@@ -8,26 +8,50 @@
  */
 ?>
 
-
+        <!--#socialFeeds -->
         <section class="section bg-color social-feeds" id="socialFeeds">
             <div class="container">
                 <div class="row">
-                    <h2 class="section-title centered">Let's Get Social</h2>
-                    <h4 class="sub-title centered">Spread the word, &amp; let's have a great time!</h4>
+                    <h2 class="section-title centered">Let's Make It A Social Event</h2>
+                    <h4 class="sub-title centered">Spread your joy &amp; excitement with the world through social-media!</h4>
 
                     <hr class="divider love alt small">
 
                     <div class="col-md-12">
-                        <p class="welcome centered">
-                            Throughout this entire process, we'd <i>LOVE</i> for everyone to share in the excitement with us!<br/>
-                            To participate, simply tag all of your photos/posts/tweets/updates with our wedding tag:<br/>
-
-                            <h2 class="sub-title centered">#MeetTheBentleys</h2>
-                        </p>
+                        <div class="welcome centered">
+                            <p>
+                                Throughout this entire process, we'd <b>LOVE</b> for everyone to share in the excitement with us!<br>
+                                To participate, simply tag your photos/posts/tweets/updates with our wedding tag:
+                            </p>
+                            <h3>#MeetTheBentleys</h3>
+                            <br>
+                            <ul class="list-inline social__links">
+                                <li>
+                                    <a href="https://www.facebook.com/search/str/%2523meetthebentleys/keywords_top" class="btn btn-lg btn-raised btn-social btn-facebook" target="_blank">
+                                        <i class="icon fa fa-facebook fa-fw fa-2x"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://instagram.com/explore/tags/meetthebentleys/" class="btn btn-lg btn-raised btn-social btn-instagram" target="_blank">
+                                        <i class="icon fa fa-instagram fa-fw fa-2x"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/search?q=%23MeetTheBentleys&src=typd" class="btn btn-lg btn-raised btn-social btn-twitter" target="_blank">
+                                        <i class="icon fa fa-twitter fa-fw fa-2x"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.flickr.com/search/?q=%23MeetTheBentleys" class="btn btn-lg btn-raised btn-social btn-flickr" target="_blank">
+                                        <i class="icon fa fa-flickr fa-fw fa-2x"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section><!--/#socialFeeds -->
 
         <?php include("parts/registry.php"); ?>
 

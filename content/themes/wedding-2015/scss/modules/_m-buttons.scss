@@ -68,3 +68,34 @@
             @include btn-flat($btn-danger-bg, $btn-danger-border);
         }
     }
+
+
+/// SOCIAL BUTTONS
+/// -------------------------
+    .btn-social {
+        &:focus,
+        &:hover {
+            color: $white;
+        }
+
+        /// SMALLER SCREENS
+        @media (max-width: $grid-float-breakpoint) {
+            margin-bottom: $line-height-computed;
+        }
+    }
+    .btn-facebook {
+        background-color: $facebook;
+        color: $white;
+    }
+    .btn-instagram {
+        background-color: $instagram;
+        color: $white;
+    }
+    .btn-twitter {
+        background-color: $twitter-blue;
+        color: $white;
+    }
+    .btn-flickr {
+        background-color: $yahoo;
+        color: $white;
+    }
