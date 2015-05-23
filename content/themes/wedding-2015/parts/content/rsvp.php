@@ -1,24 +1,28 @@
-<form class="form" id="rsvpForm" method="post" action="https://brucebentley.wufoo.com/forms/m1pswrrl1up254b/#public" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" role="form" novalidate>
+<form class="form validate" id="mc-embedded-subscribe-form" action="//bruceandmeghan.us5.list-manage.com/subscribe/post?u=cc5c6ec53beaf8bb582940958&amp;id=5f4454cec1" method="post" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 <div class="row">
-<div class="col-md-3 form-group required" id="foli9">
-<label class="sr-only" id="title9" for="Field9">Full Name: <span class="req" id="req_9">*</span></label>
-<input type="text" class="form-control input-lg" id="Field9" name="Field9" tabindex="1" maxlength="255" required>
+<div class="col-md-12">
+<h5 class="sub-title" style="color: rgba(232,78,64,0.65) !important;font-size: 18px; padding-left: 0;">Your Information</h5>
+<br>
+</div>
+<div class="col-md-3 form-group required" id="">
+<label class="sr-only" for="mce-FULLNAME1">Full Name <span class="req" id="">*</span></label>
+<input type="text" value="" name="FULLNAME1" class="form-control input-lg required" id="mce-FULLNAME1">
 <span class="form-highlight"></span>
 <span class="form-bar"></span>
-<label class="float-label" for="Field9">Full Name: <span class="req">*</span></label>
+<label class="float-label" for="">Full Name <span class="req">*</span></label>
 </div>
-<div class="col-md-3 form-group required" id="foli10">
-<label class="sr-only" id="title10" for="Field10">Email Address: <span class="req" id="req_10">*</span></label>
-<input type="email" class="form-control input-lg" id="Field10" name="Field10" tabindex="2" spellcheck="false" maxlength="255" required>
+<div class="col-md-3 form-group required" id="">
+<label class="sr-only" for="mce-EMAIL">Email Address <span class="req" id="">*</span></label>
+<input type="email" value="" name="EMAIL" class="form-control input-lg required email" id="mce-EMAIL">
 <span class="form-highlight"></span>
 <span class="form-bar"></span>
-<label class="float-label" for="Field10">Email Address: <span class="req">*</span></label>
+<label class="float-label" for="">Email Address <span class="req">*</span></label>
 </div>
-<div class="col-md-3 form-group required" id="foli11">
-<label class="sr-only" id="title11" for="Field11">Will You Attend... <span class="req" id="req_11">*</span></label>
+<div class="col-md-3 form-group required" id="">
+<label class="sr-only" for="mce-EVENTS1">Event Attendance </label>
 <div class="select">
-<select class="form-control input-lg" id="Field11" name="Field11" tabindex="3" required>
-<option value="" selected="selected"></option>
+<select name="EVENTS1" class="form-control input-lg required" id="mce-EVENTS1">
+<option value=""></option>
 <option value="All Events">All Events</option>
 <option value="The Main Ceremony">The Main Ceremony</option>
 <option value="The Wedding Reception">The Wedding Reception</option>
@@ -26,14 +30,14 @@
 </select>
 <span class="form-highlight"></span>
 <span class="form-bar"></span>
-<label class="float-label" for="Field11">Will You Attend... <span class="req">*</span></label>
+<label class="float-label" for="">Event Attendance <span class="req">*</span></label>
 </div>
 </div>
-<div class="col-md-3 form-group required" id="foli12">
-<label class="sr-only" id="title12" for="Field12">Menu Selection: <span class="req" id="req_12">*</span></label>
+<div class="col-md-3 form-group required" id="">
+<label class="sr-only" for="mce-DINNER1">Dinner Menu Selection <span class="req" id="">*</span></label>
 <div class="select">
-<select class="form-control input-lg" id="Field12" name="Field12" tabindex="4" required>
-<option value="" selected="selected"></option>
+<select name="DINNER1" class="form-control input-lg required" id="mce-DINNER1">
+<option value=""></option>
 <option value="Honey Roasted Chicken Breast">Honey Roasted Chicken Breast</option>
 <option value="Lemon Basil Salmon">Lemon Basil Salmon</option>
 <option value="Penne a la Florentina">Penne a la Florentina</option>
@@ -41,114 +45,254 @@
 </select>
 <span class="form-highlight"></span>
 <span class="form-bar"></span>
-<label class="float-label" for="Field12">Menu Selection: <span class="req">*</span></label>
+<label class="float-label" for="">Dinner Menu Selection <span class="req">*</span></label>
 </div>
 </div>
+</div>
+
+<!-- Guest #1 -->
+<div class="row">
+<div class="col-md-12">
+<h5 class="sub-title" style="color: rgba(232,78,64,0.65) !important;font-size: 18px; padding-left: 0;">Guest #1</h5>
+<br>
+</div>
+<div class="col-md-4 form-group">
+<label class="sr-only" for="mce-FULLNAME2">Full Name</label>
+<input type="text" value="" name="FULLNAME2" class="form-control" id="mce-FULLNAME2">
+<span class="form-highlight"></span>
+<span class="form-bar"></span>
+<label class="float-label" for="">Full Name</label>
+</div>
+<div class="col-md-4 form-group">
+<label class="sr-only" for="mce-EVENTS2">Event Attendance </label>
+<div class="select">
+<select name="EVENTS2" class="form-control" id="mce-EVENTS2">
+<option value=""></option>
+<option value="All Events">All Events</option>
+<option value="The Main Ceremony">The Main Ceremony</option>
+<option value="The Wedding Reception">The Wedding Reception</option>
+<option value="Not Attending">Not Attending</option>
+</select>
+<span class="form-highlight"></span>
+<span class="form-bar"></span>
+<label class="float-label" for="">Event Attendance</label>
+</div>
+</div>
+<div class="col-md-4 form-group">
+<label class="sr-only" for="mce-DINNER2">Dinner Menu Selection</label>
+<div class="select">
+<select name="DINNER2" class="form-control" id="mce-DINNER2">
+<option value=""></option>
+<option value="Honey Roasted Chicken Breast">Honey Roasted Chicken Breast</option>
+<option value="Lemon Basil Salmon">Lemon Basil Salmon</option>
+<option value="Penne a la Florentina">Penne a la Florentina</option>
+<option value="Chicken Tenders">Chicken Tenders</option>
+</select>
+<span class="form-highlight"></span>
+<span class="form-bar"></span>
+<label class="float-label" for="">Dinner Menu Selection</label>
+</div>
+</div>
+</div>
+<!-- Guest #2 -->
+<div class="row">
+<div class="col-md-12">
+<h5 class="sub-title" style="color: rgba(232,78,64,0.65) !important;font-size: 18px; padding-left: 0;">Guest #2</h5>
+<br>
+</div>
+<div class="col-md-4 form-group">
+<label class="sr-only" for="mce-FULLNAME3">Full Name </label>
+<input type="text" value="" name="FULLNAME3" class="form-control" id="mce-FULLNAME3">
+<span class="form-highlight"></span>
+<span class="form-bar"></span>
+<label class="float-label" for="">Full Name</label>
+</div>
+<div class="col-md-4 form-group">
+<label class="sr-only" for="mce-EVENTS3">Event Attendance </label>
+<div class="select">
+<select name="EVENTS3" class="form-control" id="mce-EVENTS3">
+<option value=""></option>
+<option value="All Events">All Events</option>
+<option value="The Main Ceremony">The Main Ceremony</option>
+<option value="The Wedding Reception">The Wedding Reception</option>
+<option value="Not Attending">Not Attending</option>
+</select>
+<span class="form-highlight"></span>
+<span class="form-bar"></span>
+<label class="float-label" for="">Event Attendance</label>
+</div>
+</div>
+<div class="col-md-4 form-group">
+<label class="sr-only" for="mce-DINNER3">Dinner Menu Selection</label>
+<div class="select">
+<select name="DINNER3" class="form-control" id="mce-DINNER3">
+<option value=""></option>
+<option value="Honey Roasted Chicken Breast">Honey Roasted Chicken Breast</option>
+<option value="Lemon Basil Salmon">Lemon Basil Salmon</option>
+<option value="Penne a la Florentina">Penne a la Florentina</option>
+<option value="Chicken Tenders">Chicken Tenders</option>
+</select>
+<span class="form-highlight"></span>
+<span class="form-bar"></span>
+<label class="float-label" for="">Dinner Menu Selection</label>
+</div>
+</div>
+</div>
+<!-- Guest #3 -->
+<div class="row">
+<div class="col-md-12">
+<h5 class="sub-title" style="color: rgba(232,78,64,0.65) !important;font-size: 18px; padding-left: 0;">Guest #3</h5>
+<br>
+</div>
+<div class="col-md-4 form-group">
+<label class="sr-only" for="mce-FULLNAME4">Full Name </label>
+<input type="text" value="" name="FULLNAME4" class="form-control" id="mce-FULLNAME4">
+<span class="form-highlight"></span>
+<span class="form-bar"></span>
+<label class="float-label" for="">Full Name</label>
+</div>
+<div class="col-md-4 form-group">
+<label class="sr-only" for="mce-EVENTS4">Event Attendance </label>
+<div class="select">
+<select name="EVENTS4" class="form-control" id="mce-EVENTS4">
+<option value=""></option>
+<option value="All Events">All Events</option>
+<option value="The Main Ceremony">The Main Ceremony</option>
+<option value="The Wedding Reception">The Wedding Reception</option>
+<option value="Not Attending">Not Attending</option>
+</select>
+<span class="form-highlight"></span>
+<span class="form-bar"></span>
+<label class="float-label" for="">Event Attendance</label>
+</div>
+</div>
+<div class="col-md-4 form-group">
+<label class="sr-only" for="mce-DINNER4">Dinner Menu Selection</label>
+<div class="select">
+<select name="DINNER4" class="form-control" id="mce-DINNER4">
+<option value=""></option>
+<option value="Honey Roasted Chicken Breast">Honey Roasted Chicken Breast</option>
+<option value="Lemon Basil Salmon">Lemon Basil Salmon</option>
+<option value="Penne a la Florentina">Penne a la Florentina</option>
+<option value="Chicken Tenders">Chicken Tenders</option>
+</select>
+<span class="form-highlight"></span>
+<span class="form-bar"></span>
+<label class="float-label" for="">Dinner Menu Selection</label>
+</div>
+</div>
+</div>
+<!-- Guest #4 -->
+<div class="row">
+<div class="col-md-12">
+<h5 class="sub-title" style="color: rgba(232,78,64,0.65) !important;font-size: 18px; padding-left: 0;">Guest #4</h5>
+<br>
+</div>
+<div class="col-md-4 form-group">
+<label class="sr-only" for="mce-FULLNAME5">Full Name</label>
+<input type="text" value="" name="FULLNAME5" class="form-control" id="mce-FULLNAME5">
+<span class="form-highlight"></span>
+<span class="form-bar"></span>
+<label class="float-label" for="">Full Name</label>
+</div>
+<div class="col-md-4 form-group">
+<label class="sr-only" for="mce-EVENTS5">Event Attendance</label>
+<div class="select">
+<select name="EVENTS5" class="form-control" id="mce-EVENTS5">
+<option value=""></option>
+<option value="All Events">All Events</option>
+<option value="The Main Ceremony">The Main Ceremony</option>
+<option value="The Wedding Reception">The Wedding Reception</option>
+<option value="Not Attending">Not Attending</option>
+</select>
+<span class="form-highlight"></span>
+<span class="form-bar"></span>
+<label class="float-label" for="">Event Attendance</label>
+</div>
+</div>
+<div class="col-md-4 form-group">
+<label class="sr-only" for="mce-DINNER5">Dinner Menu Selection</label>
+<div class="select">
+<select name="DINNER5" class="form-control" id="mce-DINNER5">
+<option value=""></option>
+<option value="Honey Roasted Chicken Breast">Honey Roasted Chicken Breast</option>
+<option value="Lemon Basil Salmon">Lemon Basil Salmon</option>
+<option value="Penne a la Florentina">Penne a la Florentina</option>
+<option value="Chicken Tenders">Chicken Tenders</option>
+</select>
+<span class="form-highlight"></span>
+<span class="form-bar"></span>
+<label class="float-label" for="">Dinner Menu Selection</label>
+</div>
+</div>
+</div>
+<!-- Guest #5 -->
+<div class="row">
+<div class="col-md-12">
+<h5 class="sub-title" style="color: rgba(232,78,64,0.65) !important;font-size: 18px; padding-left: 0;">Guest #5</h5>
+<br>
+</div>
+<div class="col-md-4 form-group">
+<label class="sr-only" for="mce-FULLNAME6">Full Name</label>
+<input type="text" value="" name="FULLNAME6" class="form-control" id="mce-FULLNAME6">
+<span class="form-highlight"></span>
+<span class="form-bar"></span>
+<label class="float-label" for="">Full Name</label>
+</div>
+<div class="col-md-4 form-group">
+<label class="sr-only" for="mce-EVENTS6">Event Attendance</label>
+<div class="select">
+<select name="EVENTS6" class="form-control" id="mce-EVENTS6">
+<option value=""></option>
+<option value="All Events">All Events</option>
+<option value="The Main Ceremony">The Main Ceremony</option>
+<option value="The Wedding Reception">The Wedding Reception</option>
+<option value="Not Attending">Not Attending</option>
+</select>
+<span class="form-highlight"></span>
+<span class="form-bar"></span>
+<label class="float-label" for="">Event Attendance</label>
+</div>
+</div>
+<div class="col-md-4 form-group">
+<label class="sr-only" for="mce-DINNER6">Dinner Menu Selection</label>
+<div class="select">
+<select name="DINNER6" class="form-control" id="mce-DINNER6">
+<option value=""></option>
+<option value="Honey Roasted Chicken Breast">Honey Roasted Chicken Breast</option>
+<option value="Lemon Basil Salmon">Lemon Basil Salmon</option>
+<option value="Penne a la Florentina">Penne a la Florentina</option>
+<option value="Chicken Tenders">Chicken Tenders</option>
+</select>
+<span class="form-highlight"></span>
+<span class="form-bar"></span>
+<label class="float-label" for="">Dinner Menu Selection</label>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-12">
+<h5 class="sub-title" style="color: rgba(232,78,64,0.65) !important;font-size: 18px; padding-left: 0;">Anything We Should Know?</h5>
+<br>
+</div>
+<div class="col-md-12 form-group">
+<label class="sr-only" for="mce-COMMENTS">Comments</label>
+<textarea class="form-control" value="" name="COMMENTS" id="mce-COMMENTS" rows="3"></textarea>
+<span class="form-highlight"></span>
+<span class="form-bar"></span>
+<label class="float-label" for="">Additional Comments</label>
+</div>
+</div>
+<div id="mce-responses" class="row clearfix">
+<div class="response" id="mce-error-response" style="display:none"></div>
+<div class="response" id="mce-success-response" style="display:none"></div>
+</div>
+<div style="position: absolute; left: -5000px;">
+<input type="text" name="b_cc5c6ec53beaf8bb582940958_5f4454cec1" tabindex="-1" value="">
 </div>
 <div class="row submit centered">
 <div class="col-md-12 form-group" id="rsvpSubmit">
-<button class="btn btn-primary btn-lg btn-raised btn-submit" id="saveForm" type="submit" accesskey="s" name="saveForm" value="RSVP ME!">RSVP ME!</button>
-</div>
-<div class="hidden">
-<label for="comment">Do Not Fill This Out</label>
-<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
-<input type="hidden" id="idstamp" name="idstamp" value="znpPRaZgGrfWfXSmOWncSIJfiAKIFFE14OXQDL+EpFY=" />
+<input class="btn btn-primary btn-lg btn-raised btn-submit" id="mc-embedded-subscribe" type="submit" name="subscribe" value="RSVP ME!">
 </div>
 </div>
 </form>
-</div>
-<div class="row menu-details">
-<h4 class="sub-title centered">What's On The Menu You Ask?<br>
-<small>Keep in mind, we're 99.9% sure these won't change, but you never know...</small>
-</h4>
-<hr class="divider love">
-
-<div class="col-md-6 clearfix">
-<div class="card menu">
-<div class="card-media">
-<img src="/wp-content/uploads/salmon.jpg" class="card-media-image img-responsive" alt="Lemon Basil Salmon">
-<span class="card-holder">
-<h3 class="card-heading">Lemon Basil Salmon</h3>
-<span class="block">
-<span>Served with a Warm Vinaigrette</span>
-</span>
-
-<div class="card-details">
-<dl>
-<dt>Orzo Pasta de Parma</dt>
-<dd>Tossed with Olive Oil, Garlic, Basil Puree, Parmesan Cheese, &amp; drizzled with a Red Pepper Brunoise.</dd>
-<dt>Warm Balsamic Grilled Vegetables</dt>
-<dd>Asparagus, Squash, Colorful Peppers, Bermuda Onions, &amp; Grape Tomatoes.</dd>
-</dl>
-</div>
-</span>
-</div>
-</div>
-</div>
-<div class="col-md-6">
-<div class="card menu">
-<div class="card-media">
-<img src="/wp-content/uploads/chicken-breast.jpg" class="card-media-image img-responsive" alt="Honey Roasted Chicken Breast">
-<span class="card-holder">
-<h3 class="card-heading">Honey Roasted Chicken Breast</h3>
-<span class="block">
-<span>Served with a Clover Honey Mustand Glaze</span>
-</span>
-
-<div class="card-details">
-<dl>
-<dt>Roasted Fingerling Potatoes</dt>
-<dd>Yellow Potatoes, drizzled with Extra Virgin Olive Oil &amp; Sea Salt, tossed with fresh herbs.</dd>
-<dt>Oven Roasted Asparagus</dt>
-<dd>Seasoned with Sea Salt &amp; drizzled with Extra Virgin Olive Oil.</dd>
-</dl>
-</div>
-</span>
-</div>
-</div>
-</div>
-<div class="clearfix"></div>
-<div class="col-md-6">
-<div class="card menu">
-<div class="card-media">
-<img src="/wp-content/uploads/penne-pasta.jpg" class="card-media-image img-responsive" alt="Penne a la Florentina">
-<span class="card-holder">
-<h3 class="card-heading">Penne a la Florentina</h3>
-<span class="block">
-<span>* Vegetarian Option *</span>
-</span>
-
-<div class="card-details">
-<dl>
-<dt>Penne Pasta</dt>
-<dd>Tossed with Fresh Spinach, Peas, Grape Tomatoes, &amp; Parmesan Cream Sauce, finished with a Basil Puree.</dd>
-<dt>Oven Roasted Asparagus</dt>
-<dd>Seasoned with Sea Salt &amp; drizzled with Extra Virgin Olive Oil.</dd>
-</dl>
-</div>
-</span>
-</div>
-</div>
-</div>
-<div class="col-md-6">
-<div class="card menu">
-<div class="card-media">
-<img src="/wp-content/uploads/chicken-tenders.jpg" class="card-media-image img-responsive" alt="Chicken Tenders">
-<span class="card-holder">
-<h3 class="card-heading">Chicken Tenders</h3>
-<span class="block">
-<span>* For The Non-Adventurous *</span>
-</span>
-
-<div class="card-details">
-<dl>
-<dt>Baked Chicken Strips</dt>
-<dd>Served with: Fresh Fruit Salad, Buttered Corn, Tater Tots, &amp; Carrot Sticks.</dd>
-<dt>Chocolate Chip Cookie</dt>
-<dd></dd>
-</dl>
-</div>
-</span>
-</div>
-</div>
-</div>
