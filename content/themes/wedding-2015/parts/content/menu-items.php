@@ -80,7 +80,7 @@
 <div class="card__content">
 <h3 class="card__title card__menu-name">Chicken Tenders</h3>
 <span class="block">
-<span>* For The Non-Adventurous *</span>
+<span>* For Guests Under Age 15 *</span>
 </span>
 <div class="card__body">
 <dl>

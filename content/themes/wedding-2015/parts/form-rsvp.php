@@ -37,7 +37,7 @@
                     <option value="Honey Roasted Chicken Breast">Honey Roasted Chicken Breast</option>
                     <option value="Lemon Basil Salmon">Lemon Basil Salmon</option>
                     <option value="Penne a la Florentina">Penne a la Florentina</option>
-                    <option value="Chicken Tenders">Chicken Tenders</option>
+                    <option value="Chicken Tenders">Chicken Tenders (Kids Menu)</option>
                 </select>
                 <span class="form-highlight"></span>
                 <span class="form-bar"></span>
