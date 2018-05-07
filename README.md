@@ -41,7 +41,7 @@ To install dependencies, run `bower install --save package-name` to get the file
 _Content Coming Soon_
 
 ### License
-Copyright &copy; 2018 Bruce Bentley
+Copyright &copy; 2018 Bruce Bentley  
 Licensed under the [MIT](LICENSE) License.
 
 [homepage]: https://www.bruceandmeghan.com
