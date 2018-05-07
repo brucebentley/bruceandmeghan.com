@@ -1,9 +1,0 @@
-/* #BACKFACE VISIBILITY
-================================================== */
-    @mixin backface-visibility($visibility) {
-        -webkit-backface-visibility: $visibility;
-            -ms-backface-visibility: $visibility;
-           -moz-backface-visibility: $visibility;
-             -o-backface-visibility: $visibility;
-                backface-visibility: $visibility;
-    }

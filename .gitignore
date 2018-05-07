@@ -1,26 +1,55 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# COMPILED OUTPUT
+/dist
+/tmp
+/.tmp
+/out-tsc
+/package
+
+# CONFIG
 /local-config.php
 /wp-config.php
-/sql-dump-*.sql
-/db-sync
+
+# CONTENT & DATA
 /content/upgrade/
+/db-sync
+/sql-dump-*.sql
 
-.tmp
-*.sass-cache
-.idea
-node_modules
-bower_components
+# DEPENDENCIES
+/bower_components
+/node_modules
+package-lock.json
 
-content/plugins/*
-content/upgrade/*
-content/uploads/*
+# E2E
+/e2e/*.js
+/e2e/*.map
 
-sitemap.xml
-sitemap.xml.gz
+# IDE'S AND EDITORS
+/*.launch
+/*.sublime-workspace
+/.c9/
+/.classpath
+/.idea
+/.project
+/.settings/
 
-readme.html
-license.txt
-.log
+# MISC.
+*.tgz
+/.chrome
+/.sass-cache
+/connect.lock
+/coverage/*
+/libpeerconnection.log
+/typings
+npm-debug.log
+testem.log
+yarn-error.log
+
+# SYSTEM FILES
 .DS_Store
-
-prepros.cfg
-config.codekit
+*.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db

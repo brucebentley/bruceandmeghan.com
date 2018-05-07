@@ -1,6 +1,0 @@
-# Protect /wp-content/ Directory
-Order deny,allow
-    Deny from all
-    <Files ~ ".(xml|css|jpe?g|png|gif|js|svg|mp4)$">
-        Allow from all
-    </Files>
