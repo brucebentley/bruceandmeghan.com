@@ -1,6 +1,15 @@
 # Bruce & Meghan's Wedding
 
-> Bruce finally popped the big question, and Meghan said yes! That being said, feel free to browse our Wedding Website at [http://www.bruceandmeghan.com](http://www.bruceandmeghan.com). Thanks!
+> &nbsp;  
+> _Bruce finally popped the big question, and Meghan said yes!_  
+> &nbsp;  
+> Although the big day happened back on July 11, 2015, our [**Wedding Website &rarr;**][homepage] is still  
+> available for you to browse for ideas or inspiration.  
+> &nbsp;  
+> _&mdash;Thanks!_  
+> _Bruce & Meghan Bentley_  
+> &nbsp;
+
 
 ![](the-love-birds.png)
 
@@ -32,4 +41,9 @@ To install dependencies, run `bower install --save package-name` to get the file
 _Content Coming Soon_
 
 ### License
-[GPL License](http://www.gnu.org/licenses/gpl-2.0.txt)
+Copyright &copy; 2018 Bruce Bentley
+Licensed under the [MIT](LICENSE) License.
+
+[homepage]: https://www.bruceandmeghan.com
+[repo]: https://github.com/brucebentley/bruceandmeghan.com
+[license]: https://github.com/brucebentley/bruceandmeghan.com/blob/master/LICENSE
